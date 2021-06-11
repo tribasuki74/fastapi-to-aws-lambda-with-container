@@ -1,0 +1,8 @@
+functions:
+  test_lambda:
+    image: 240833302201.dkr.ecr.ap-southeast-1.amazonaws.com/test_lambda:lambda
+    events:
+      - http:
+          path: /
+          method: get
+          cors: true
