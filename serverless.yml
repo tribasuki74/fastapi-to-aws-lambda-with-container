@@ -1,4 +1,4 @@
-service: test_lambda
+service: test-lambda
 
 frameworkVersion: "2"
 
