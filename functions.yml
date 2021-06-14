@@ -6,3 +6,15 @@ functions:
           path: /
           method: get
           cors: true
+      - http:
+          path: hello/
+          method: any
+          cors: true
+      - http:
+          path: docs/
+          method: get
+          cors: true
+      - http:
+          path: redoc/
+          method: get
+          cors: true
