@@ -7,7 +7,7 @@ import uvicorn
 #   Application object                                                        #
 ###############################################################################
 
-app = FastAPI(title="Test Lambda Function API with Docker Container", version=0.1, root_path="/dev/")
+app = FastAPI(title="Test Lambda Function API with Docker Container", version=0.1, root_path="dev/")
 
 ###############################################################################
 #   Routers configuration                                                     #
