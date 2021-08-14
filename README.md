@@ -73,7 +73,7 @@ docker run -p 9000:8080 hello-world-lambda:latest
 We send the input event that the lambda would receive from the API Gateway with the following command :
 
 ```
-curl -XPOST "http://localhost:9000/2015-03-31/functions/function/invocations" -d '{
+curl -X POST "http://localhost:9000/2015-03-31/functions/function/invocations" -d '{
     "resource": "/hello",
     "path": "/hello/",
     "httpMethod": "GET",
